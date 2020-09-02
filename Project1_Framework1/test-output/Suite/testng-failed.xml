@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="comm.TestScriptsPackage.Tc002_Seacrh_Shoes">
+        <methods>
+          <include name="Systemset"/>
+          <include name="Logout"/>
+          <include name="seacrh_mobile"/>
+        </methods>
+      </class> <!-- comm.TestScriptsPackage.Tc002_Seacrh_Shoes -->
+      <class name="comm.TestScriptsPackage.TC001_Seacrh_Mobile">
+        <methods>
+          <include name="seacrh_mobile"/>
+          <include name="Systemset"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- comm.TestScriptsPackage.TC001_Seacrh_Mobile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

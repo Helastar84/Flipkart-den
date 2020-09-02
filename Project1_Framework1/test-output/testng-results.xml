@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20759" started-at="2020-09-02T20:46:35 CEST" finished-at="2020-09-02T20:46:55 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20759" started-at="2020-09-02T20:46:35 CEST" finished-at="2020-09-02T20:46:55 CEST">
+      <class name="comm.TestScriptsPackage.TC003_MouseOver">
+        <test-method status="PASS" signature="Systemset()[pri:0, instance:comm.TestScriptsPackage.TC003_MouseOver@48503868]" name="Systemset" is-config="true" duration-ms="12815" started-at="2020-09-02T20:46:35 CEST" finished-at="2020-09-02T20:46:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Systemset -->
+        <test-method status="PASS" signature="MouseOver()[pri:0, instance:comm.TestScriptsPackage.TC003_MouseOver@48503868]" name="MouseOver" duration-ms="7066" started-at="2020-09-02T20:46:47 CEST" finished-at="2020-09-02T20:46:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseOver -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:comm.TestScriptsPackage.TC003_MouseOver@48503868]" name="Logout" is-config="true" duration-ms="837" started-at="2020-09-02T20:46:55 CEST" finished-at="2020-09-02T20:46:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- comm.TestScriptsPackage.TC003_MouseOver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
