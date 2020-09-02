@@ -8,7 +8,7 @@ public class DragandDrop extends BasicOperations{
 	public static void Drag_and_Drop(WebElement source,WebElement target )		 
 	 {  
 		Actions at = new Actions(driver);		
-		//
+		//sample test
 		at.dragAndDrop(source, target).perform();		
 	 }
 }
