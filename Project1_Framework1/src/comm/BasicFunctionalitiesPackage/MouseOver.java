@@ -9,6 +9,7 @@ public class MouseOver extends BasicOperations
 	 {
 		Actions at = new Actions(driver);
 		at.moveToElement(value).perform();
+		Thread.sleep(5000);
 		return value;
 	 }
 	
